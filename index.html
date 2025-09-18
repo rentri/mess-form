@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <header>
+                <img src="nit.png" alt="">
+            </header>
+            <hr>
+            <h1>Enter Personal Details</h1>
+            <hr>
+            <div class="name">
+                <fieldset>
+                    <legend>Name</legend>
+                    <div class="name-wrapper">
+                        <input type="text", id="name-input", placeholder="Name", required>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="department">
+                <fieldset>
+                    <legend>Roll Number</legend>
+                    <div class="roll-no">
+                        <input type="text", id="roll-no-input", placeholder="Roll Number", required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                        <legend>Department</legend>
+                        <label><input type="radio", name="ans", required>CSE</label>
+                        <label><input type="radio", name="ans">AI/DS</label>
+                        <label><input type="radio", name="ans">VLSI</label>
+                        <label><input type="radio", name="ans">ECE</label>
+                        <label><input type="radio", name="ans">EE</label>
+                        <label><input type="radio", name="ans">Civil</label>
+                </fieldset>
+
+                <fieldset>
+                        <legend>Year</legend>
+                        <label><input type="radio", name="year", required>1st</label>
+                        <label><input type="radio", name="year">2nd</label>
+                        <label><input type="radio", name="year">3rd</label>
+                        <label><input type="radio", name="year">4th</label>
+                </fieldset>
+
+                <fieldset>
+                        <legend>Semester</legend>
+                        <label><input type="radio", name="sem">1st</label>
+                        <label><input type="radio", name="sem">2nd</label>
+                </fieldset>
+
+                <fieldset>
+                        <legend>Hostel</legend>
+                        <input type="text", id="hostel-input", placeholder="Hostel Name">
+                        <br>
+                        <br>
+                        <span style="color: yellow;">If dayscholar leave empty</span>
+                </fieldset>
+
+                <fieldset>
+                        <legend>Food Preference</legend>
+                        <label><input type="radio", name="food", required>Veg</label>
+                        <label><input type="radio", name="food">Non-Veg</label>
+                </fieldset>
+            </div>
+
+            <div class="next">
+                <a href="menu-rating/index.html">
+                <button onclick="" class="btn btn-primary">Next</button>
+                </a>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
